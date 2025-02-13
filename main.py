@@ -17,7 +17,7 @@ win.resizable(width=False, height=False) #bloqueando o redimensionamento da jane
 label_nome = tk.Label(win, text='Cronômetro', fon=('Arial 10'), bg=preto, fg=branco) #Nome do app
 label_nome.place(x=20, y=5) #localidade dentro da janela
 
-label_tempo = tk.Label(win, text='00:00:00', fon=('Times 50 bold'), bg=preto, fg=azul) #cronometro
+label_tempo = tk.Label(win, text='00:00:00', fon=('Times 50 bold'), bg=preto, fg=vermelho) #cronometro
 label_tempo.place(x=20, y=30) #localidade dentro da janela
 
 botao_iniciar = tk.Button(win, text='Iniciar', width=10, height=2, bg=preto, fg=branco, font=('Ivy 8 bold'), relief='raised', overrelief='ridge') #botao para iniciar o cronometro

@@ -29,6 +29,10 @@ contador = -5
 
 #funcao para iniciar o cronometro
 def iniciar():
+  #variaveis globais
+  global tempo
+  global contador
+
   if rodar:
     #antes do conometro iniciar
     if contador <= -1:
@@ -39,6 +43,9 @@ def iniciar():
       print('Condição else satisfeita')
       contador += 1
 
+#funcao para dar inicio a funcao iniciar
+def start():
+  
 
 #label nome do app
 label_nome = tk.Label(win, text='Cronômetro', fon=('Arial 10'), bg=preto, fg=branco)
